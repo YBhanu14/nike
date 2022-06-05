@@ -1,0 +1,239 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    position: relative;
+width: 1440px;
+height: 900px;
+
+background: #FAFAFA;
+}
+.logo{
+    position: absolute;
+width: 85px;
+height: 30px;
+left: 44px;
+top: 0px;
+
+}
+
+.Menu2{  
+    position: absolute;
+    width: 895px;
+    height: 62px;
+    left: 273px;
+    top: 21px;
+    
+    background: rgba(250, 250, 250, 0.5);
+    backdrop-filter: blur(19.028px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 31px;
+
+
+      }
+
+ul{
+    list-style: none;
+    position: absolute;
+    width: 895px;
+    height: 62px;
+    left: 273px;
+    top: 21px;
+    
+    background: rgba(250, 250, 250, 0.5);
+    backdrop-filter: blur(19.028px);
+    /* Note: backdrop-filter has minimal browser support */
+    
+    border-radius: 31px;
+}
+
+
+li.new{
+    position: absolute;
+height: 20px;
+left: 0%;
+right: 87.67%;
+top: calc(50% - 20px/2 + 0.5px);
+
+}
+
+li.men{
+    position: absolute;
+height: 20px;
+left: 18.11%;
+right: 77.23%;
+top: calc(50% - 20px/2 + 0.5px);
+}
+
+li.women{
+    position: absolute;
+height: 20px;
+left: 28.43%;
+right: 63.4%;
+top: calc(50% - 20px/2 + 0.5px);
+}
+
+li.Kids{
+    position: absolute;
+height: 20px;
+left: 42.39%;
+right: 53.21%;
+top: calc(50% - 20px/2 + 0.5px);
+}
+
+li.Personalise{
+    position: absolute;
+    height: 20px;
+    left: 52.45%;
+    right: 35.72%;
+    top: calc(50% - 20px/2 + 0.5px);
+    
+    
+}
+
+li.Collections{
+    position: absolute;
+height: 20px;
+left: 69.94%;
+right: 18.74%;
+top: calc(50% - 20px/2 + 0.5px);
+
+}
+
+li.Sales{
+    position: absolute;
+height: 20px;
+left: 86.92%;
+right: 7.8%;
+top: calc(50% - 20px/2 + 0.5px);
+
+}
+
+li.Search{
+    position: absolute;
+    left: 97.74%;
+    right: 0%;
+    top: 0%;
+    bottom: 5.26%;
+    
+}
+
+li.Basket{
+
+    position: absolute;
+    width: 25px;
+    height: 21px;
+    left: 1371px;
+    top: 40px;
+
+}
+
+
+li{
+    font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 19.5px;
+/* identical to box height */
+
+
+color: #000000;
+
+mix-blend-mode: normal;
+opacity: 0.8;
+}
+
+img.image1{
+    position: absolute;
+    width: 718px;
+    height: 577px;
+    left: 662px;
+    top: -176px;
+    background-blend-mode:overlay;
+    opacity: 0.8;
+
+    object-fit: contain;
+}
+
+/*Feel strong like Leb*/
+
+.Text h4
+{   
+position: absolute;
+height: 136px;
+left: 10%;
+right: 0%;
+top: calc(50% - 136px/2 - 133px);
+
+font-family: 'Montserrat';
+font-style: italic;
+font-weight: 700;
+font-size: 56px;
+line-height: 68px;
+
+color: #000000;
+
+}
+
+/* The LeBron 17 LMTD f */
+
+.Text p
+{
+position: absolute;
+height: 234px;
+left: 10%;
+right: 34.65%;
+top: calc(50% - 234px/2 + 84px);
+
+font-family: 'Montserrat';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+/* or 144% */
+
+
+color: #000000;
+
+}
+
+.symbol
+{
+    position: absolute;
+width: 143px;
+height: 22px;
+left: 160px;
+top: 778px;
+
+mix-blend-mode: normal;
+opacity: 0.5;
+}
+
+.image2
+{
+    position: absolute;
+    width: 657px;
+    height: 590.04px;
+    left: 430px;
+    top: 457px;
+    
+    /*background: url(Image.png);*/
+
+    object-fit: contain;
+}
+
+ /* Add to basket */
+    
+ .addbasket
+    {
+   position: absolute;
+width: 302px;
+height: 130px;
+left: 1043px;
+top: 695px;
+
+    }
