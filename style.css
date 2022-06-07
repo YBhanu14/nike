@@ -5,17 +5,17 @@
 
 body{
     position: relative;
-width: 1440px;
-height: 900px;
-
-background: #FAFAFA;
+    width: 1440px;
+    height: 900px;
+    background: #FAFAFA;
 }
+
 .logo{
     position: absolute;
-width: 85px;
-height: 30px;
-left: 44px;
-top: 0px;
+    width: 85px;
+    height: 30px;
+    left: 44px;
+    top: 0px;
 
 }
 
@@ -53,35 +53,35 @@ ul{
 
 li.new{
     position: absolute;
-height: 20px;
-left: 0%;
-right: 87.67%;
-top: calc(50% - 20px/2 + 0.5px);
+    height: 20px;
+    left: 0%;
+    right: 87.67%;
+    top: calc(50% - 20px/2 + 0.5px);
 
 }
 
 li.men{
     position: absolute;
-height: 20px;
-left: 18.11%;
-right: 77.23%;
-top: calc(50% - 20px/2 + 0.5px);
+    height: 20px;
+    left: 18.11%;
+    right: 77.23%;
+    top: calc(50% - 20px/2 + 0.5px);
 }
 
 li.women{
     position: absolute;
-height: 20px;
-left: 28.43%;
-right: 63.4%;
-top: calc(50% - 20px/2 + 0.5px);
+    height: 20px;
+    left: 28.43%;
+    right: 63.4%;
+    top: calc(50% - 20px/2 + 0.5px);
 }
 
 li.Kids{
     position: absolute;
-height: 20px;
-left: 42.39%;
-right: 53.21%;
-top: calc(50% - 20px/2 + 0.5px);
+    height: 20px;
+    left: 42.39%;
+    right: 53.21%;
+    top: calc(50% - 20px/2 + 0.5px);
 }
 
 li.Personalise{
@@ -96,28 +96,32 @@ li.Personalise{
 
 li.Collections{
     position: absolute;
-height: 20px;
-left: 69.94%;
-right: 18.74%;
-top: calc(50% - 20px/2 + 0.5px);
+    height: 20px;
+    left: 69.94%;
+    right: 18.74%;
+    top: calc(50% - 20px/2 + 0.5px);
 
 }
 
 li.Sales{
     position: absolute;
-height: 20px;
-left: 86.92%;
-right: 7.8%;
-top: calc(50% - 20px/2 + 0.5px);
+    height: 20px;
+    left: 86.92%;
+    right: 7.8%;
+    top: calc(50% - 20px/2 + 0.5px);
 
 }
 
 li.Search{
+
     position: absolute;
-    left: 97.74%;
+    left: 94.74%;
     right: 0%;
     top: 0%;
-    bottom: 5.26%;
+    bottom: -26.32%;
+    mix-blend-mode: normal;
+    opacity: 0.7;
+    top: calc(50% - 20px/2 + 0.5px);
     
 }
 
@@ -126,8 +130,9 @@ li.Basket{
     position: absolute;
     width: 25px;
     height: 21px;
-    left: 1371px;
+    left: 1071px;
     top: 40px;
+    top: calc(50% - 20px/2 + 0.5px);
 
 }
 
