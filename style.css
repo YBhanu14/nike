@@ -1,16 +1,18 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-body{
+body 
+{
     position: relative;
     width: 1440px;
     height: 900px;
     background: #FAFAFA;
 }
 
-.logo{
+.logo 
+{
     position: absolute;
     width: 85px;
     height: 30px;
@@ -19,39 +21,38 @@ body{
 
 }
 
-.Menu2{  
+.Menu2 
+{
     position: absolute;
     width: 895px;
     height: 62px;
     left: 273px;
     top: 21px;
-    
     background: rgba(250, 250, 250, 0.5);
     backdrop-filter: blur(19.028px);
     /* Note: backdrop-filter has minimal browser support */
-    
     border-radius: 31px;
 
 
-      }
+}
 
-ul{
+ul 
+{
     list-style: none;
     position: absolute;
     width: 895px;
     height: 62px;
     left: 273px;
     top: 21px;
-    
     background: rgba(250, 250, 250, 0.5);
     backdrop-filter: blur(19.028px);
     /* Note: backdrop-filter has minimal browser support */
-    
     border-radius: 31px;
 }
 
 
-li.new{
+li.new 
+{
     position: absolute;
     height: 20px;
     left: 0%;
@@ -60,7 +61,8 @@ li.new{
 
 }
 
-li.men{
+li.men 
+{
     position: absolute;
     height: 20px;
     left: 18.11%;
@@ -68,7 +70,8 @@ li.men{
     top: calc(50% - 20px/2 + 0.5px);
 }
 
-li.women{
+li.women 
+{
     position: absolute;
     height: 20px;
     left: 28.43%;
@@ -76,7 +79,8 @@ li.women{
     top: calc(50% - 20px/2 + 0.5px);
 }
 
-li.Kids{
+li.Kids 
+{
     position: absolute;
     height: 20px;
     left: 42.39%;
@@ -84,17 +88,19 @@ li.Kids{
     top: calc(50% - 20px/2 + 0.5px);
 }
 
-li.Personalise{
+li.Personalise 
+{
     position: absolute;
     height: 20px;
     left: 52.45%;
     right: 35.72%;
     top: calc(50% - 20px/2 + 0.5px);
-    
-    
+
+
 }
 
-li.Collections{
+li.Collections 
+{
     position: absolute;
     height: 20px;
     left: 69.94%;
@@ -103,7 +109,8 @@ li.Collections{
 
 }
 
-li.Sales{
+li.Sales 
+{
     position: absolute;
     height: 20px;
     left: 86.92%;
@@ -112,8 +119,8 @@ li.Sales{
 
 }
 
-li.Search{
-
+li.Search 
+{
     position: absolute;
     left: 94.74%;
     right: 0%;
@@ -122,10 +129,11 @@ li.Search{
     mix-blend-mode: normal;
     opacity: 0.7;
     top: calc(50% - 20px/2 + 0.5px);
-    
+
 }
 
-li.Basket{
+li.Basket 
+{
 
     position: absolute;
     width: 25px;
@@ -137,108 +145,168 @@ li.Basket{
 }
 
 
-li{
+li 
+{
     font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 16px;
-line-height: 19.5px;
-/* identical to box height */
-
-
-color: #000000;
-
-mix-blend-mode: normal;
-opacity: 0.8;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19.5px;
+    /* identical to box height */
+    color: #000000;
+    mix-blend-mode: normal;
+    opacity: 0.8;
 }
 
-img.image1{
+li:hover
+{
+    font-weight: bold;
+    cursor: pointer;
+}
+
+img.image1
+ {
     position: absolute;
     width: 718px;
     height: 577px;
     left: 662px;
     top: -176px;
-    background-blend-mode:overlay;
+    background-blend-mode: overlay;
     opacity: 0.8;
-
     object-fit: contain;
 }
 
 /*Feel strong like Leb*/
 
-.Text h4
-{   
-position: absolute;
-height: 136px;
-left: 10%;
-right: 0%;
-top: calc(50% - 136px/2 - 133px);
-
-font-family: 'Montserrat';
-font-style: italic;
-font-weight: 700;
-font-size: 56px;
-line-height: 68px;
-
-color: #000000;
+.Text h4 
+{
+    position: absolute;
+    height: 136px;
+    left: 10%;
+    right: 0%;
+    top: calc(50% - 136px/2 - 133px);
+    font-family: 'Montserrat';
+    font-style: italic;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 68px;
+    color: #000000;
 
 }
 
 /* The LeBron 17 LMTD f */
 
-.Text p
-{
-position: absolute;
-height: 234px;
-left: 10%;
-right: 34.65%;
-top: calc(50% - 234px/2 + 84px);
-
-font-family: 'Montserrat';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-/* or 144% */
-
-
-color: #000000;
-
-}
-
-.symbol
+.Text p 
 {
     position: absolute;
-width: 143px;
-height: 22px;
-left: 160px;
-top: 778px;
+    height: 234px;
+    left: 10%;
+    right: 34.65%;
+    top: calc(50% - 234px/2 + 84px);
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    /* or 144% */
+    color: #000000;
 
-mix-blend-mode: normal;
-opacity: 0.5;
 }
 
-.image2
-{
+.symbol {
+    position: absolute;
+    width: 143px;
+    height: 22px;
+    left: 160px;
+    top: 778px;
+    mix-blend-mode: normal;
+    opacity: 0.5;
+}
+
+
+.image2 {
     position: absolute;
     width: 657px;
     height: 590.04px;
     left: 430px;
     top: 457px;
-    
-    /*background: url(Image.png);*/
-
     object-fit: contain;
 }
 
- /* Add to basket */
-    
- .addbasket
-    {
-   position: absolute;
-width: 302px;
-height: 130px;
-left: 1043px;
-top: 695px;
+/* Add to basket */
 
-    }
+.basketform {
+    position: absolute;
+    width: 302px;
+    height: 130px;
+    left: 1043px;
+    top: 795px;
+
+}
+
+.addbasket {
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #000000;
+    border-radius: 35px;
+    background: #FFFFFF;
+    box-shadow: inset 2px 2px 3px rgba(255, 255, 255, .6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    border-radius: 35px;
+}
+
+.addbasket:hover
+ {
+    background-color: rgb(166, 159, 159);
+}
+
+  .addbasket:active
+   {
+        box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+        inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.shoesize 
+{
+     mix-blend-mode: normal; 
+
+}
+
+.shoesizeselect
+{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 38px;
+    letter-spacing: 0.615385px;
+    color: #000000;
+    width: 302px;
+    border:0px;
+    border-bottom: 2px solid #c7c5c5 ;
+    background: #FAFAFA;
+}
+
+.rate
+{
+    position: absolute;
+    height: 38px;
+    left: 73.84%;
+    right: 0.33%;
+    top: calc(50% - 38px/2 );
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 38px;
+    letter-spacing: 1.15385px;
+    color: #000000;
+}
